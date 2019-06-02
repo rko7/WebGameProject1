@@ -1,0 +1,23 @@
+#screen {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    user-select: none;
+}
+#screen.waiting {
+    background-color: aqua;
+    font-family: fantasy;
+    font-size: 50px;
+}
+#screen.ready {
+    background-color: red;
+    color: greenyellow;
+    font-family: bold, cursive;
+    font-size: 45px;
+}
+#screen.now {
+    background-color: green;
+    color: white;
+    font-family: bold, cursive;
+    font-size: 45px;
+}
